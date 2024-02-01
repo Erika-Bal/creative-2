@@ -60,6 +60,100 @@ header.masthead {
     box-shadow: inset 0px 15px 20px -3px rgba(0,0,0,0.1);
 }
 
-.divider-color{
+hr.divider-color{
     background-color: #F7F7FF!important;
+}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page Blog*/
+main{
+    
+    margin-left:5rem ;
+    margin-right:5rem ;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.small-container {
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-blog{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+h2{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color:#7C9FFF
+    
+}
+
+
+.half-size {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container .img-resize {
+    margin: 0 10px; 
+    width: 50%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.half-size-video {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+footer{
+    margin-top: 5rem;
 }
