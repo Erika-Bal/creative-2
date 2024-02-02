@@ -1,36 +1,43 @@
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #7C9FFF !important;
+    color: #d4ccff!important;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #7C9FFF!important;
+    color: #d4ccff!important;
   }
   .shadow-text {
-    text-shadow: 1px 1px 2px #7C9FFF; 
-    color:#F7F7FF
+    text-shadow: 1px 1px 2px #d4ccff; 
+    color: #fff;
 }
 hr.divider{
-   background-color: #7C9FFF !important; 
+   background-color: #d4ccff !important; 
+   box-shadow: 1px 1px 2px #424242; 
 }
 .btn-primary {
-    color: #F7F7FF;
-    background-color: #7C9FFF !important; 
-    border-color: #7C9FFF!important; 
+    color: #424242;
+    background-color: #d4ccff !important; 
+    border-color: #d4ccff!important; 
+    text-shadow: 1px 1px 2px #fff; 
+    box-shadow: 1px 1px 2px #424242;
   }
   
 .btn-primary:hover {
-    color: #F7F7FF;
-    background-color: #7C9FFF !important; 
-    border-color: #7C9FFF!important; 
+    color: #424242!important;
+    background-color: #d4ccff !important; 
+    border-color: #d4ccff!important; 
+    
   }
   .bg-primary {
-    background-color: #7C9FFF!important; 
+    background-color: #fff!important; 
   }
   #about p {
     text-align: left;
-    color:#F7F7FF!important;
+    color:#424242!important;
+    font-size: 1rem!important;
+    font-weight: 200!important;
 }
 .custom-colorh2{
-    color: #F7F7FF!important;
+    color: #d4ccff!important;
+    text-shadow: 1px 1px 2px #424242; 
   }
 header.masthead {
     padding-top: 10rem;
@@ -41,7 +48,8 @@ header.masthead {
     background-position: center;
 }
 .portfolio-box-caption {
-    background-color: #7C9FFF !important; }
+    background-color: #d4ccff !important;
+ }
 
 .full-height {
         height: 100%;
@@ -60,8 +68,25 @@ header.masthead {
     box-shadow: inset 0px 15px 20px -3px rgba(0,0,0,0.1);
 }
 
-hr.divider-color{
-    background-color: #F7F7FF!important;
+
+.btn-primary:disabled, 
+.btn-primary.disabled{
+    color: #424242!important;
+    text-shadow: 1px 1px 2px #fff; 
+    box-shadow: 1px 1px 2px #424242;
+    border-color: #d4ccff!important;  
+}
+.btn-primary:disabled, 
+.btn-primary.disabled:hover{
+    color: #424242!important;
+    background-color: #d4ccff !important; 
+    border-color: #d4ccff!important; 
+    
+  }
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -117,8 +142,8 @@ h1{
 h2{
     margin-top: 5rem;
     margin-bottom: 2rem;
-    color:#7C9FFF
-    
+    color:#d4ccff;
+    text-shadow: 1px 1px 2px #424242; 
 }
 
 
